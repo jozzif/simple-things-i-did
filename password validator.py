@@ -1,7 +1,4 @@
-'''
-len()
-count()
-'''
+
 
 def main():
     #rules for creating a strong password
@@ -41,12 +38,7 @@ while True:# this loop will keep running until the user creates a strong passwor
     digit_validator(password)
     if (any(char.isupper() for char in password) and any (char.islower() for char in password) and len(password)>= 8 and len(password)<=16 and any(char.isdigit() for char in password)):
         print('password is strong✅')
-        break
-    
-            
-        
-            
-
-    
+        break    
 
 main()
+
